@@ -278,7 +278,8 @@
         const VERCEL_API_URL = 'https://link-earning.vercel.app/api'; 
         
         const BOT_USERNAME = 'LinkEarning_bot'; 
-        const APP_SHORT_NAME = 'LinkEarning'; 
+        // THIS IS THE CRUCIAL CHANGE:
+        const APP_SHORT_NAME = 'httpslinkearningvercelapp'; 
 
         let dbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
         let currentUserData = null;
